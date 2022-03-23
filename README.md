@@ -24,6 +24,10 @@ Je kan alle verschillenden aparatenen kopen maar dit kan best duur worden daarom
 <img src="https://user-images.githubusercontent.com/29665951/159695774-545e56a1-1bf5-44a3-95a2-63dfb89762ff.png"  width="450px">
 
 
+## Website zonder javascript en css
+Veel website gebruiken css en javascript om de website te maken. Maar somige mensen schakelen deze onderdelen uit of bepaalden browsers onderstuinen dit niet. Een goede website zou moeten kunnen werken met HTML als basis. Iets wat de gebruiker niet wil terug geven is een lege pagina omdat de content geladen moet worden met bijvoorbeeld javascript.
+
+![html-empty-website](https://user-images.githubusercontent.com/29665951/159710555-0ed67c08-50bd-4ce3-ac00-c372968ae7ca.jpeg)
 
 
 
