@@ -29,9 +29,16 @@ Veel website gebruiken css en javascript om de website te maken. Maar somige men
 
 <img src="https://user-images.githubusercontent.com/29665951/159710555-0ed67c08-50bd-4ce3-ac00-c372968ae7ca.jpeg"  width="350px">
 
+Wanneer je een website wil testen zonder javascipt volg de stappen in de link. https://developer.chrome.com/docs/devtools/javascript/disable/
+Wanneer je de website zonder css wil testen volg deze stappen https://www.techwalla.com/articles/how-to-disable-css-in-chrome
+
 ## Bronnen
 6 Effective Tips on How to Make a Website Responsive. (2022, 23 februari). WebFX. Geraadpleegd op 23 maart 2022, van https://www.webfx.com/web-design/learn/make-website-
 
 Kamani, V. (2021, 9 december). 7 Insanely Effective Tips For Designing Responsive Websites. 7 Insanely Effective Tips For Designing Responsive Websites. Geraadpleegd op 23 maart 2022, van https://arkenea.com/blog/design-responsive-websites/
 
 BrowserStack. (2022, 23 maart). Most Reliable App & Cross Browser Testing Platform. Geraadpleegd op 23 maart 2022, van https://www.browserstack.com/
+
+Disable JavaScript. (z.d.). Chrome Developers. Geraadpleegd op 23 maart 2022, van https://developer.chrome.com/docs/devtools/javascript/disable/
+
+how-to-disable-css-in-chrome. (z.d.). how-to-disable-css-in-chrome. Geraadpleegd op 23 maart 2022, van https://www.techwalla.com/articles/how-to-disable-css-in-chrome
