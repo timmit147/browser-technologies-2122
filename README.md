@@ -1,5 +1,8 @@
 # Browser Technologies @cmda-minor-web 20-21
 
+## Metaphor Progressive Enhancement
+Progressive Enhancement begint altijd met een goede basis(taart bodem) dat werkt voor alle aparaten en verschillenden gebruikers. Wanneer de basis staat van een goede website kan je de website uitbrijden door extra features(Taart kleur, vorm of smaak) toe te voegen om het gebruik van de website te verbeteren. Niet alle features van een website zijn voor iedereen toegankelijk voorbeelden kunnen zijn:
+
 ## Responsive website
 Wanneer je een website maakt voor het internet is een responsive website een belangerijk onderdeel om rekening mee te houden. In de loop van tijd zijn er verschillenden formaten van displays gemaakt zoals: mobiel, laptop ,tv, smartwatch of tablet. ALs een developer is het belangerijk dat de website die je maakt werkt voor alle verschillenden scherm formaten werkt.
 
