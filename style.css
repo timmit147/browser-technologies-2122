@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui;
+    line-height: 2;
+}
+
+header {
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    position: relative;
+    background-color: #ffd4d4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 200px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    background: no-repeat;
+    width: 360px;
+    background-image: url('images/downie.svg');
+    bottom: 20px;
+    right: 20px;
+    background-size: 40%;
+    display: flex;
+    justify-content: center;
+    background-position: bottom right;
+    z-index: 0;
+}
+
+header h1 {
+    background-color: #f8c4c4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    align-self: center;
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+    padding: 0px 0px 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f8c4c4;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 20px;
+    z-index: 1;
+    transition: 0.5s;
+    text-align-last: center;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    background-color: #ffd4d4;
+    margin: 20px;
+    flex: 1 1 300px;
+    border-radius: 5px;
+}
+
+h3 {
+    padding: 20px 0px 0px 0px;
+}
+
+section p,
+a {
+    font-size: calc(1rem + 2px);
+}
+
+h1,
+h2 {
+    font-size: calc(2rem + 2px);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
