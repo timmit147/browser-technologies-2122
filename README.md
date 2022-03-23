@@ -14,7 +14,7 @@ Wanneer je een website maakt voor het internet is een responsive website een bel
 * Geeft de website een vieuwport
 
 ### Responsive testen
-Je kan alle verschillenden aparatenen kopen maar dit kan best duur worden daarom heeft google chrome in de development tools de mogelijkheid gegeven om het formaat van verschillenden apraten te testen. Je kan ook een Browser Stack kopen waarbij je alleen een url moet toevoegen en de website gaat de meeste voorkomende formaten tonen om te testen. 
+Je kan alle verschillenden aparatenen kopen maar dit kan best duur worden daarom heeft google chrome in de development tools de mogelijkheid gegeven om het formaat van verschillenden apraten te testen. Je kan ook een Browser Stack kopen waarbij je alleen een url moet toevoegen en de website gaat de meeste voorkomende formaten tonen om te testen. Met Browser Stack kan je echte aparaten testen dus wannneer een mobiel bijvoorbeeld heel laag werkt kan je dit testen.
 
 <img src="https://user-images.githubusercontent.com/29665951/159695774-545e56a1-1bf5-44a3-95a2-63dfb89762ff.png"  width="450px">
 
@@ -23,5 +23,8 @@ Je kan alle verschillenden aparatenen kopen maar dit kan best duur worden daarom
 
 
 ## Bronnen
-https://www.webfx.com/web-design/learn/make-website-responsive/
-https://arkenea.com/blog/design-responsive-websites/
+6 Effective Tips on How to Make a Website Responsive. (2022, 23 februari). WebFX. Geraadpleegd op 23 maart 2022, van https://www.webfx.com/web-design/learn/make-website-
+
+Kamani, V. (2021, 9 december). 7 Insanely Effective Tips For Designing Responsive Websites. 7 Insanely Effective Tips For Designing Responsive Websites. Geraadpleegd op 23 maart 2022, van https://arkenea.com/blog/design-responsive-websites/
+
+BrowserStack. (2022, 23 maart). Most Reliable App & Cross Browser Testing Platform. Geraadpleegd op 23 maart 2022, van https://www.browserstack.com/
