@@ -1,5 +1,10 @@
 # Browser Technologies @cmda-minor-web 20-21
 
+## Metaphor Progressive Enhancement
+Progressive Enhancement begint altijd met een goede basis(taart bodem) dat werkt voor alle aparaten en verschillenden gebruikers. Wanneer de basis staat van een goede website kan je de website uitbrijden door extra features(Taart kleur, vorm of smaak) toe te voegen om het gebruik van de website te verbeteren. Niet alle features van een website zijn voor iedereen toegankelijk voorbeelden kunnen zijn:
+
+<img src="https://user-images.githubusercontent.com/29665951/159707122-836041c6-c053-458b-851e-adb648529fdb.jpg"  width="350px">
+
 ## Responsive website
 Wanneer je een website maakt voor het internet is een responsive website een belangerijk onderdeel om rekening mee te houden. In de loop van tijd zijn er verschillenden formaten van displays gemaakt zoals: mobiel, laptop ,tv, smartwatch of tablet. ALs een developer is het belangerijk dat de website die je maakt werkt voor alle verschillenden scherm formaten werkt.
 
@@ -19,8 +24,13 @@ Je kan alle verschillenden aparatenen kopen maar dit kan best duur worden daarom
 <img src="https://user-images.githubusercontent.com/29665951/159695774-545e56a1-1bf5-44a3-95a2-63dfb89762ff.png"  width="450px">
 
 
+## Website zonder javascript en css
+Veel website gebruiken css en javascript om de website te maken. Maar somige mensen schakelen deze onderdelen uit of bepaalden browsers onderstuinen dit niet. Een goede website zou moeten kunnen werken met HTML als basis. Iets wat de gebruiker niet wil terug geven is een lege pagina omdat de content geladen moet worden met bijvoorbeeld javascript.
 
+<img src="https://user-images.githubusercontent.com/29665951/159710555-0ed67c08-50bd-4ce3-ac00-c372968ae7ca.jpeg"  width="350px">
 
+Wanneer je een website wil testen zonder javascipt volg de stappen in de link. https://developer.chrome.com/docs/devtools/javascript/disable/
+Wanneer je de website zonder css wil testen volg deze stappen https://www.techwalla.com/articles/how-to-disable-css-in-chrome
 
 ## Bronnen
 6 Effective Tips on How to Make a Website Responsive. (2022, 23 februari). WebFX. Geraadpleegd op 23 maart 2022, van https://www.webfx.com/web-design/learn/make-website-
@@ -28,3 +38,7 @@ Je kan alle verschillenden aparatenen kopen maar dit kan best duur worden daarom
 Kamani, V. (2021, 9 december). 7 Insanely Effective Tips For Designing Responsive Websites. 7 Insanely Effective Tips For Designing Responsive Websites. Geraadpleegd op 23 maart 2022, van https://arkenea.com/blog/design-responsive-websites/
 
 BrowserStack. (2022, 23 maart). Most Reliable App & Cross Browser Testing Platform. Geraadpleegd op 23 maart 2022, van https://www.browserstack.com/
+
+Disable JavaScript. (z.d.). Chrome Developers. Geraadpleegd op 23 maart 2022, van https://developer.chrome.com/docs/devtools/javascript/disable/
+
+how-to-disable-css-in-chrome. (z.d.). how-to-disable-css-in-chrome. Geraadpleegd op 23 maart 2022, van https://www.techwalla.com/articles/how-to-disable-css-in-chrome
