@@ -7,6 +7,13 @@
     line-height: 2;
 }
 
+img {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
 header {
     padding: 20px;
     margin: 20px 20px 0px 20px;
@@ -109,15 +116,7 @@ main {
     justify-content: center;
 }
 
-nav ul li:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
-}
 
-nav ul li:hover a {
-    font-weight: 700;
-    transition: 0.5s;
-}
 
 section::after,
 header::after {
@@ -147,15 +146,9 @@ header::before {
     transition: 0.5s;
 }
 
-section:hover::after,
-section:hover::before,
-header:hover::after,
-header:hover::before {
-    transform: scale(1.35);
-    transition: 0.5s;
-}
 
-section a {
+section a,
+footer a {
     color: black;
     font-weight: bold;
     text-decoration: underline;
@@ -167,6 +160,46 @@ section a {
     transition: 0.5s;
 }
 
-section a:hover {
+
+section[title="Metaphor Progressive Enhancement"] {
+    flex: 0 0 calc(100% - 80px);
+    margin: 20px 0 0 0px;
+    text-align: center;
+}
+
+footer {
+    transition: 0.5s;
+    padding: 20px;
+    background-color: #ffd4d4;
+    margin: 20px;
+    flex: 1 1 300px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: fit-content;
+}
+
+section:hover::after,
+section:hover::before,
+header:hover::after,
+header:hover::before {
+    transform: scale(1.35);
+    transition: 0.5s;
+}
+
+section a:hover,
+footer a:hover {
     transform: scale(1.05);
+}
+
+
+nav ul li:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+nav ul li:hover a {
+    font-weight: 700;
+    transition: 0.5s;
 }
