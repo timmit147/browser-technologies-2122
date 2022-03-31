@@ -14,7 +14,8 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
-var vragen = {vraag1:"pizza"};
+var vragen = {0:"pizza"};
+var live = {0:""};
 
 
 function countProperties(obj) {
@@ -37,7 +38,22 @@ app.get('/', function (req, res) {
 
 app.get('/admin:id', function (req, res) {
   res.render("vraagSettings",{
-    data: vragen
+    data: vragen[req.params.id],
+    para:   req.params.id
+  });
+});
+
+app.post('/admin:id', function (req, res) {
+  console.log(vragen[req.params.id]);
+  delete vragen[req.params.id];
+  res.redirect('/admin')
+});
+
+app.post('/live:id', function (req, res) {
+  live[0] = vragen[req.params.id];
+  console.log(live[0]);
+  res.render("live",{
+    data: live[0]
   });
 });
 

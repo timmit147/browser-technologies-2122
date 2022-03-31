@@ -5,31 +5,20 @@
 </head>
 <body>
 
-    <form action="" method="POST">
-        <div>
-          <label for="say">Wat is vraag 1?</label>
-          <input name="vraag" id="vraag" value="Vraag 1">
-        </div>
-      </br>
-        <div>
-          <label for="to">Andwoord1</label>
-          <input name="andwoord1" id="andwoord-1"  value="Andwoord-1">
-        </div>
-      </br>
-        <div>
-            <label for="to">Andwoord2</label>
-            <input name="andwoord2" id="andwoord-2"  value="Andwoord-2">
-          </div>
-        <div>
-        </br>
-          <button>Vraag toevoegen</button>
-        </div>
-      </form>
+<h1>Change vraag</h1>
+<p><%- data %></p>
+<form method="POST">
+    <input type = "hidden" name="vraag" id="vraag" value="<%- para %>">
+    <button>Verwijder vraag</button>
+</br></br>
+    <button formaction="/live<%- para %>">Vraag live zetten</button>
+</form>
 
-    </br>
+</br>
 
-      <a href="/admin">Vragen overzicht</a>
 
+
+<a href="/admin"><p>Vragen overzicht</p></a>
 
 </body>
 </html>
