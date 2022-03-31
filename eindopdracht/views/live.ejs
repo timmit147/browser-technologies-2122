@@ -7,7 +7,14 @@
 
     <h1>De vraag is live</h1>
 
-    <p><%- data %></p>
+    <p><%- data["vraag"]["titel"] %></p>
+    <p><%- data["keuze1"]["titel"] %></p>
+    <p><%- data["keuze2"]["titel"] %></p>
+    
+    <form method="POST">
+        <input type = "hidden" name="vraag" id="vraag" value="<%- data %>">
+        <button>Vraag stoppen</button>
+    </form>
 
 </body>
 </html>

@@ -14,9 +14,9 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
-var vragen = {0:"pizza"};
-var live = {0:""};
-
+var vragen = {"vraag":{"vraag":"","totaal":0}};
+var live = {"vraag":{"titel":"Wachten op vraag","totaal":""},"keuze1":{"titel":"","totaal":""},"keuze2":{"titel":"","totaal":""}};
+ 
 
 function countProperties(obj) {
   var count = 0;
@@ -32,9 +32,22 @@ function countProperties(obj) {
 
 app.get('/', function (req, res) {
   res.render("wachten",{
-    data: vragen
+    data:  live
   });
 });
+
+
+app.post('/', function (req, res) {
+  res.render("wachten",{
+    data:  live
+  });
+});
+
+app.post('/keuze1:id', function (req, res) {
+  live["vraag"]["totaal"] = req.params.id+"1";
+  res.redirect('/')
+});
+
 
 app.get('/admin:id', function (req, res) {
   res.render("vraagSettings",{
@@ -44,18 +57,26 @@ app.get('/admin:id', function (req, res) {
 });
 
 app.post('/admin:id', function (req, res) {
-  console.log(vragen[req.params.id]);
   delete vragen[req.params.id];
   res.redirect('/admin')
 });
 
 app.post('/live:id', function (req, res) {
-  live[0] = vragen[req.params.id];
-  console.log(live[0]);
+  live = vragen[req.params.id];
+  res.redirect('/live')
+});
+
+app.get('/live', function (req, res) {
   res.render("live",{
-    data: live[0]
+    data:  live
   });
 });
+
+app.post('/live', function (req, res) {
+  live = {"vraag":{"titel":"Wachten op vraag","totaal":""},"keuze1":{"titel":"","totaal":""},"keuze2":{"titel":"","totaal":""}};
+  res.redirect('/admin')
+});
+
 
 app.get('/admin', function (req, res) {
   res.render("admin",{
@@ -71,10 +92,8 @@ app.get('/vraag', function (req, res) {
 
   
 app.post('/vraag', (req, res) => {
-  vragen[countProperties(vragen)+1] = req.body.vraag;
-  // console.log(req.body.andwoord1);
-  // console.log(req.body.andwoord2);
-  res.redirect('/admin')
+  vragen[countProperties(vragen)] = {"vraag":{"titel":req.body.vraag,"totaal":0},"keuze1":{"titel":req.body.andwoord1,"totaal":0},"keuze2":{"titel":req.body.andwoord2,"totaal":0}};
+  res.redirect('/admin'+(countProperties(vragen)-1))
 })
 
 

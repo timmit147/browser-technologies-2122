@@ -6,7 +6,7 @@
 <body>
 
 <h1>Change vraag</h1>
-<p><%- data %></p>
+<p><%- data["vraag"]["titel"] %></p>
 <form method="POST">
     <input type = "hidden" name="vraag" id="vraag" value="<%- para %>">
     <button>Verwijder vraag</button>
