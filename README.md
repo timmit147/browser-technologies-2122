@@ -36,6 +36,18 @@ Ik heb een breakdown schets gemaakt van de code zonder css styling of javascript
 <img src="https://user-images.githubusercontent.com/29665951/161238219-50795cc6-942f-4c85-92b5-d57736f1c879.png"  width="1500px">
 
 
+## Kleuren blind test 
+De grafiek gebruikt kleuren en ik heb getest of deze kleuren werken voor kleurenblinden.
+
+### Achromatopsia
+<img src="https://user-images.githubusercontent.com/29665951/161241748-5c7c7fe7-0c06-4eea-bd19-5934c1f77cd0.png"  width="250px">
+
+### Protanopia
+<img src="https://user-images.githubusercontent.com/29665951/161242296-6d45dfe5-a8a6-4336-9035-eba4ae4ba7f2.png"  width="250px">
+
+### Tritanopia
+<img src="https://user-images.githubusercontent.com/29665951/161242479-362d7cdc-16f7-47be-8c49-327864df0392.png"  width="250px">
+
 
 Link naar team opdracht https://timmit147.github.io/browser-technologies-2122/teamOpdracht/
 
