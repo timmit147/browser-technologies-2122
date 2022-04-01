@@ -1,45 +1,27 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>poll</title>
-</head>
-<body>
+<%- include('./partials/head') %>
+
+<h1><%- data["vraag"]["titel"] %></h1>
+
+<p><%- data["keuze1"]["titel"] %> ( <%- data["keuze1"]["totaal"] %>)</p>
+<form method="POST">
+<button formaction="/keuze1<%- data["keuze1"]["totaal"] %>">keuze 1</button>
+</form>
+
+<p><%- data["keuze2"]["titel"] %> (<%- data["keuze2"]["totaal"] %>)</p>
+
+<form method="POST">
+<button formaction="/keuze2<%- data["keuze2"]["totaal"] %>">keuze 2</button>
+</form>
+
+</br>
+
+<svg width="100" height="200">
+<rect fill="red" width="400" height="<%- (200 / data["vraag"]["totaal"]) * data["keuze1"]["totaal"] %>" />
+</svg>
+
+<svg fill="blue" width="100" height="200">
+<rect width="400" height="<%- (200 / data["vraag"]["totaal"]) * data["keuze2"]["totaal"] %>" />
+</svg>
 
 
-    <table>
-        <tr>
-          <h1><%- data["vraag"]["titel"] %></h1>
-        </tr>
-        <tr>
-            <td><p><%- data["keuze1"]["titel"] %> ( <%- data["keuze1"]["totaal"] %>)</p></td>
-            <td>
-                <form method="POST">
-                    <button formaction="/keuze1<%- data["keuze1"]["totaal"] %>">keuze 1</button>
-                </form>
-            </td>
-            <td></td>
-            <td><p><%- data["keuze2"]["titel"] %> (<%- data["keuze2"]["totaal"] %>)</p></td>
-            <td>
-                <form method="POST">
-                    <button formaction="/keuze2<%- data["keuze2"]["totaal"] %>">keuze 2</button>
-                </form>
-            </td>
-          </tr>
-        <tr>
-            <td>
-                <svg width="100" height="200">
-                    <rect fill="red" width="400" height="<%- (200 / data["vraag"]["totaal"]) * data["keuze1"]["totaal"] %>" />
-                </svg>
-            </td>
-            <td></td>
-            <td></td>
-            <td>
-                <svg fill="blue" width="100" height="200">
-                    <rect width="400" height="<%- (200 / data["vraag"]["totaal"]) * data["keuze2"]["totaal"] %>" />
-                </svg>
-            </td>
-        </tr>
-      </table>
-
-</body>
-</html>
+<%- include('./partials/foot') %>
