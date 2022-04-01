@@ -17,6 +17,10 @@ Als eindopdracht heb ik een poll gemaakt met een admin pagina waarbij de leraar 
 	-	Antwoorden zien, met goede datavisualisatie
 - Push: als de admin een vraag en antwoorden publiceert, moeten de gebruikers die nu zijn ingelogd een melding zien en in staat zijn de vraag direct te beantwoorden. (Bedenk zelf op welke manier dit precies gebeurt. Ook: mogen ze meteen nadat ze geantwoord hebben een overzicht van de gegevens antwoorden zien? Zo nee, wanneer dan wel?)
 
+## Probleem 1
+
+Ik dacht dat wanneer je css niet werkt je met een table nog steeds elementen kan positioneren. Wat fout is aan het gebruik van een table is dat dit in mijn voorbeeld niet sematich correct is, de reden is dat ik een svg wil plaatsen in mijn de table en dat is niet correct. De oplossing om elementen te positioneren is dat ik dit met css ga doen omdat dit niet mogelijk is met html.
+
 ## Breakdown schets
 
 Ik heb een breakdown schets gemaakt van de code zonder css styling of javascript. Met deze basis kan ik extra features toevoegen zoals css of javascript.
