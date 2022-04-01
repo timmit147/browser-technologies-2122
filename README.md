@@ -23,7 +23,7 @@ Ik dacht dat wanneer je css niet werkt je met een table nog steeds elementen kan
 
 ## Breakdown schets
 
-Ik heb een breakdown schets gemaakt van de code zonder css styling of javascript. Met deze basis kan ik extra features toevoegen zoals css of javascript.
+Ik heb een breakdown schets gemaakt van de code zonder css styling of javascript. De website is nu functioneel en betrouwbaar te gebruiken op verschillenden aparaten. Met deze basis kan ik extra features toevoegen zoals css of javascript.
 
 <img src="https://user-images.githubusercontent.com/29665951/161231683-3e176dd2-881d-47de-aa24-ee5441c7c3b5.png"  width="500px">
 <img src="https://user-images.githubusercontent.com/29665951/161231676-078712f8-ec5e-4954-9e03-aed1fb49fb2a.png"  width="500px">
@@ -47,6 +47,8 @@ De grafiek gebruikt kleuren en ik heb getest of deze kleuren werken voor kleuren
 
 ### Tritanopia
 <img src="https://user-images.githubusercontent.com/29665951/161242479-362d7cdc-16f7-47be-8c49-327864df0392.png"  width="250px">
+
+## Css toevoegen
 
 
 Link naar team opdracht https://timmit147.github.io/browser-technologies-2122/teamOpdracht/
