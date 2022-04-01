@@ -19,6 +19,8 @@ Als eindopdracht heb ik een poll gemaakt met een admin pagina waarbij de leraar 
 
 ## Breakdown schets
 
+Ik heb een breakdown schets gemaakt van de code zonder css styling of javascript. Met deze basis kan ik extra features toevoegen zoals css of javascript.
+
 <img src="https://user-images.githubusercontent.com/29665951/161231676-078712f8-ec5e-4954-9e03-aed1fb49fb2a.png"  width="500px">
 <img src="https://user-images.githubusercontent.com/29665951/161231682-9843fa07-2747-46e1-bee6-0b3b846c4203.png"  width="500px">
 <img src="https://user-images.githubusercontent.com/29665951/161231683-3e176dd2-881d-47de-aa24-ee5441c7c3b5.png"  width="500px">
