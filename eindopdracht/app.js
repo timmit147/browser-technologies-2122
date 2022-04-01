@@ -14,8 +14,8 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
-var vragen = {"vraag":{"vraag":"","totaal":0}};
-var live = {"vraag":{"titel":"Wachten op vraag","totaal":""},"keuze1":{"titel":"","totaal":""},"keuze2":{"titel":"","totaal":""}};
+var vragen = {"vraag":{"vraag":"","totaal":"0"}};
+var live = "";
  
 
 function countProperties(obj) {
@@ -31,9 +31,16 @@ function countProperties(obj) {
 
 
 app.get('/', function (req, res) {
+  if(live == ""){
+    res.render("index",{
+      data:  live
+    });
+  }
+  else{
   res.render("wachten",{
     data:  live
   });
+  }
 });
 
 
@@ -44,7 +51,14 @@ app.post('/', function (req, res) {
 });
 
 app.post('/keuze1:id', function (req, res) {
-  live["vraag"]["totaal"] = req.params.id+"1";
+  live["keuze1"]["totaal"] = parseInt(live["keuze1"]["totaal"])+1;
+  live["vraag"]["totaal"] = parseInt(live["keuze1"]["totaal"]) + parseInt(live["keuze2"]["totaal"]);
+  res.redirect('/')
+});
+
+app.post('/keuze2:id', function (req, res) {
+  live["keuze2"]["totaal"] = parseInt(live["keuze2"]["totaal"])+1;
+  live["vraag"]["totaal"] = parseInt(live["keuze1"]["totaal"]) + parseInt(live["keuze2"]["totaal"]);
   res.redirect('/')
 });
 
@@ -73,7 +87,7 @@ app.get('/live', function (req, res) {
 });
 
 app.post('/live', function (req, res) {
-  live = {"vraag":{"titel":"Wachten op vraag","totaal":""},"keuze1":{"titel":"","totaal":""},"keuze2":{"titel":"","totaal":""}};
+  live = "";
   res.redirect('/admin')
 });
 
@@ -92,7 +106,7 @@ app.get('/vraag', function (req, res) {
 
   
 app.post('/vraag', (req, res) => {
-  vragen[countProperties(vragen)] = {"vraag":{"titel":req.body.vraag,"totaal":0},"keuze1":{"titel":req.body.andwoord1,"totaal":0},"keuze2":{"titel":req.body.andwoord2,"totaal":0}};
+  vragen[countProperties(vragen)] = {"vraag":{"titel":req.body.vraag,"totaal":"0"},"keuze1":{"titel":req.body.andwoord1,"totaal":"0"},"keuze2":{"titel":req.body.andwoord2,"totaal":"0"}};
   res.redirect('/admin'+(countProperties(vragen)-1))
 })
 
