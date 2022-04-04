@@ -4,7 +4,7 @@
     <h1>Admin</h1>
 
     <% for (key in data) { %>
-        <a href="/admin<%- key %>"><p><%- data[key]["vraag"]["titel"] %></p></a>
+        <p><a href="/admin<%- key %>"><%- data[key]["vraag"]["titel"] %></a></p>
 
     <% } %>
 
