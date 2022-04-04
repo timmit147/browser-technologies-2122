@@ -3,22 +3,10 @@
 <h1><%- data["vraag"]["titel"] %></h1>
 
 <p><%- data["keuze1"]["titel"] %> ( <%- data["keuze1"]["totaal"] %>)</p>
-<% if(user == false) {%>
-<form method="POST">
-<button formaction="/keuze1<%- data["keuze1"]["totaal"] %>">keuze 1</button>
-</form>
-<%}
-else{}
-%>
 
 <p><%- data["keuze2"]["titel"] %> (<%- data["keuze2"]["totaal"] %>)</p>
-<% if(user == false) {%>
-<form method="POST">
-<button formaction="/keuze2<%- data["keuze2"]["totaal"] %>">keuze 2</button>
-</form>
-<%}
-else{}
-%>
+
+
 
 </br>
 

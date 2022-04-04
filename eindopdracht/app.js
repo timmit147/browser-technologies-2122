@@ -37,26 +37,31 @@ app.get('/', function (req, res) {
     });
   }
   else{
-  res.render("wachten",{
-    data:  live
-  });
+    var user = false;
+    for (key of users) {
+      if (key == req.headers['user-agent']){
+        user = true;
+      }
+    }
+    res.render("wachten",{
+      data:  live,
+      user: user
+    });
   }
 });
 
+var users = ["test","test2"];
 
-app.post('/', function (req, res) {
-  res.render("wachten",{
-    data:  live
-  });
-});
 
 app.post('/keuze1:id', function (req, res) {
+  users.push(req.headers['user-agent']);
   live["keuze1"]["totaal"] = parseInt(live["keuze1"]["totaal"])+1;
   live["vraag"]["totaal"] = parseInt(live["keuze1"]["totaal"]) + parseInt(live["keuze2"]["totaal"]);
   res.redirect('/')
 });
 
 app.post('/keuze2:id', function (req, res) {
+  users.push(req.headers['user-agent']);
   live["keuze2"]["totaal"] = parseInt(live["keuze2"]["totaal"])+1;
   live["vraag"]["totaal"] = parseInt(live["keuze1"]["totaal"]) + parseInt(live["keuze2"]["totaal"]);
   res.redirect('/')
@@ -88,6 +93,7 @@ app.get('/live', function (req, res) {
 
 app.post('/live', function (req, res) {
   live = "";
+  users = [];
   res.redirect('/admin')
 });
 
