@@ -17,7 +17,17 @@ Als eindopdracht heb ik een poll gemaakt met een admin pagina waarbij de leraar 
 	-	Antwoorden zien, met goede datavisualisatie
 - Push: als de admin een vraag en antwoorden publiceert, moeten de gebruikers die nu zijn ingelogd een melding zien en in staat zijn de vraag direct te beantwoorden. (Bedenk zelf op welke manier dit precies gebeurt. Ook: mogen ze meteen nadat ze geantwoord hebben een overzicht van de gegevens antwoorden zien? Zo nee, wanneer dan wel?)
 
-## Probleem 1
+### Basis functionaliteit
+Leraar: vraag toevoegen en verwijderen
+
+Student: vraag bekijken en beandwoorden
+
+### Feature list
+* Css toegevoegen voor websites dat css gebruikt
+* Pagina automatich herladen toevoegen voor aparaten dat javascript ondersteunt.
+* Gegevens gebruiker (naam) dit is niet nodig om een werkende poll te hebben en is daarom een feature
+
+## Probleem 1 (table)
 
 Ik dacht dat wanneer je css niet werkt je met een table nog steeds elementen kan positioneren. Wat fout is aan het gebruik van een table is dat dit in mijn voorbeeld niet sematich correct is, de reden is dat ik een svg wil plaatsen in mijn de table en dat is niet correct. De oplossing om elementen te positioneren is dat ik dit met css ga doen omdat dit niet mogelijk is met html.
 
@@ -35,6 +45,18 @@ Ik heb een breakdown schets gemaakt van de code zonder css styling of javascript
 
 <img src="https://user-images.githubusercontent.com/29665951/161238219-50795cc6-942f-4c85-92b5-d57736f1c879.png"  width="1500px">
 
+## SVG supported
+Ik heb gekeken of SVG op alle browsers gebruikt kan worden en dit is op een aantal browsers na het geval. Ik heb ook een fallback gemaakt wanneer dit niet het geval is door het aantal stemmen te tonen naast de keuze.
+
+<img src="https://user-images.githubusercontent.com/29665951/161738041-1bbf7163-6c2d-494f-a11e-e6e02bc44df5.png"   width="200px">
+
+
+<img src="https://user-images.githubusercontent.com/29665951/161737535-a3ae73db-53fc-4c9b-8e95-bf1734c4c359.png"   width="1500px">
+
+## Formaction supported 
+Ik gebruik formaction om verschillende buttons in mijn form verschillende acties te geven. Dit word niet ondersteund door oudere browsers uit 2010. De oplossing hier voor is om verschillende formulieren te maken. Bij elk formulier kan je een extra variable mee geven zodat de server kan onderscheiden welke knop gedrukt is op de pagina. Voorbeeld kan zijn verwijder:a of update:a.
+
+![image](https://user-images.githubusercontent.com/29665951/161739320-b1cfaaf5-580b-4255-8bf4-216f9eebe63d.png)
 
 ## Kleuren blind test 
 De grafiek gebruikt kleuren en ik heb getest of deze kleuren werken voor kleurenblinden.
@@ -48,7 +70,42 @@ De grafiek gebruikt kleuren en ik heb getest of deze kleuren werken voor kleuren
 ### Tritanopia
 <img src="https://user-images.githubusercontent.com/29665951/161242479-362d7cdc-16f7-47be-8c49-327864df0392.png"  width="250px">
 
-## Css toevoegen
+## Probleem 2(button)
+
+Een probleem dat ik had was dat de gebruiker bij de poll oneindig kon stemmen en dat is is niet de bedoeling. De oplossing die ik heb gevonden is req.headers['user-agent'] te gebruiken op gebruikers te onderschijden met elkaar. Wanneer je nu vaker de tab opent weet de server dat dit de zelften persoon is die het zelften browser gebruikt.
+
+
+## Progressive Enhancement
+
+### Functional 
+De student kan de vraag bekijken.
+De leraar kan een vraag toevoegen.
+### Reliable
+De student .
+De leraar .
+### Usable 
+De student ziet direct het recultaat.
+De leraar kan verschillenden vragen stellen.
+### Pleasurable 
+
+
+## Browsers Test
+### Desktop
+Google Chrome: Versie 99.0.4844.84 (Officiële build) (64-bits)
+Firefox: Versie 98.0.2 (64-bits)
+
+### Mobiel
+Android: Moto g(8) power (XT2041-3)
+Apple:
+
+## Eind recultaat
+
+<img src="https://user-images.githubusercontent.com/29665951/161741289-58aeeb28-ac39-403c-ad56-cf02b3b0fb78.png"  width="500px">
+
+<img src="https://user-images.githubusercontent.com/29665951/161741555-67712c50-633b-4336-bc40-37f0c0023cba.png"  width="500px">
+
+<img src="https://user-images.githubusercontent.com/29665951/161741455-534aa0f9-0fd6-4f6d-8978-f6d261c4b009.png"  width="500px">
+
 
 
 Link naar team opdracht https://timmit147.github.io/browser-technologies-2122/teamOpdracht/
