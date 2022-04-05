@@ -45,7 +45,7 @@ app.get('/', function (req, res) {
     }
     res.render("wachten",{
       data:  live,
-      user: user
+      user: user 
     });
   }
 });
