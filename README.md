@@ -1,6 +1,8 @@
 # Studenten poll
 Als eindopdracht heb ik een poll gemaakt met een admin pagina waarbij de leraar de vragen kan toevoegen en onlline zetten. De studenten kunnen de vragen beandwoorden en zien direct de uitkomst.
 
+Live demo: https://studenten-poll.herokuapp.com/
+
 ## Gekozen User Story
 
 > Ik wil tijdens een college aan studenten een poll kunnen voorleggen met vragen en antwoorden, en de resultaten meteen laten zien.
