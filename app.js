@@ -31,6 +31,7 @@ function countProperties(obj) {
 
 
 app.get('/', function (req, res) {
+  res.header("Refresh", "20");
   if(live == ""){
     res.render("index",{
       data:  live
