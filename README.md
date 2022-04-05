@@ -88,6 +88,15 @@ De student ziet direct het recultaat.
 De leraar kan verschillenden vragen stellen.
 ### Pleasurable 
 
+## Eind recultaat
+
+<img src="https://user-images.githubusercontent.com/29665951/161741289-58aeeb28-ac39-403c-ad56-cf02b3b0fb78.png"  width="500px">
+
+<img src="https://user-images.githubusercontent.com/29665951/161741555-67712c50-633b-4336-bc40-37f0c0023cba.png"  width="500px">
+
+<img src="https://user-images.githubusercontent.com/29665951/161741455-534aa0f9-0fd6-4f6d-8978-f6d261c4b009.png"  width="500px">
+
+
 
 Link naar team opdracht https://timmit147.github.io/browser-technologies-2122/teamOpdracht/
 
