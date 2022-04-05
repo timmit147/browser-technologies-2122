@@ -88,6 +88,16 @@ De student ziet direct het recultaat.
 De leraar kan verschillenden vragen stellen.
 ### Pleasurable 
 
+
+## Browsers Test
+### Desktop
+Google Chrome: Versie 99.0.4844.84 (Officiële build) (64-bits)
+Firefox: Versie 98.0.2 (64-bits)
+
+### Mobiel
+Android: Moto g(8) power (XT2041-3)
+Apple:
+
 ## Eind recultaat
 
 <img src="https://user-images.githubusercontent.com/29665951/161741289-58aeeb28-ac39-403c-ad56-cf02b3b0fb78.png"  width="500px">
