@@ -14,7 +14,7 @@ else{}
 <% if(user != false) {%>
     <h3 class="textKeuze1"><%- data["keuze1"]["titel"] %> (<%- data["keuze1"]["totaal"] %>)</h3>
     <svg width="200" height="15">
-        <rect fill="#A40606" width="<%- (200 / data["vraag"]["totaal"]) * data["keuze1"]["totaal"] %>" height="100" />
+        <rect fill="#A40606" width="<%- (200 / data["vraag"]["totaal"]) * data["keuze1"]["totaal"] %>" height="15" />
         </svg>
     <%}
 
@@ -39,7 +39,7 @@ else{}
 <% if(user != false) {%>
     <h3 class="textKeuze2"> <%- data["keuze2"]["titel"] %> (<%- data["keuze2"]["totaal"] %>)</h3>
     <svg fill="blue" width="200" height="15">
-        <rect width="<%- (200 / data["vraag"]["totaal"]) * data["keuze2"]["totaal"] %>" height="100" />
+        <rect width="<%- (200 / data["vraag"]["totaal"]) * data["keuze2"]["totaal"] %>" height="15" />
         </svg>
         <p>Wachten op een nieuwe vraag</p>
     <%}
