@@ -1,7 +1,12 @@
 # Studenten poll
-Als eindopdracht heb ik een poll gemaakt met een admin pagina waarbij de leraar de vragen kan toevoegen en onlline zetten. De studenten kunnen de vragen beandwoorden en zien direct de uitkomst.
+Als eindopdracht heb ik een poll gemaakt met een admin pagina waarbij de leraar de vragen kan toevoegen en online zetten. De studenten kunnen de vragen beandwoorden en zien direct de uitkomst. De poll is gecodeerd in HTML, CSS en JS, serverside gerenderd met Node en als template engine EJS.
 
-Live demo: https://studenten-poll.herokuapp.com/
+- Live demo student: https://studenten-poll.herokuapp.com/
+- De student kan vragen beandwoorden en het recultaat inzien.
+ 
+ 
+* Live demo leraar: https://studenten-poll.herokuapp.com/admin
+* De leraar kan de vragen maken live zetten en verwijderen.
 
 ## Gekozen User Story
 
@@ -91,7 +96,7 @@ Wanneer ik door de pagina ging taben werkten alles behalven het tabben door de k
 
 Op mobiel heb ik gekeken of het toetsenbord niet over tekst heen gaat dat je nog moet lezen en op mijn website is dat niet het geval. 
 
-![thumbnail_Screenshot_20220407-121958](https://user-images.githubusercontent.com/29665951/162178393-ac53ab23-b41d-43e8-85fe-1c95ed6585de.png)
+<img src="https://user-images.githubusercontent.com/29665951/162178393-ac53ab23-b41d-43e8-85fe-1c95ed6585de.png"  width="200px">
 
 
 ## Progressive Enhancement
@@ -133,7 +138,14 @@ Tijdens het testen op de nokia kreeg ik een probleem dat tekst over de svg heen 
 
 <img src="https://user-images.githubusercontent.com/29665951/161741455-534aa0f9-0fd6-4f6d-8978-f6d261c4b009.png"  width="500px">
 
+## Bronnen
+* Can I use. . . Support tables for HTML5, CSS3, etc. (z.d.). Can I Use. Geraadpleegd op 7 april 2022, van https://caniuse.com/
+* HTML Tables. (z.d.). Table. Geraadpleegd op 7 april 2022, van https://www.w3schools.com/html/html_tables.asp
+* How can I access my localhost from my Android device? (2011, 24 januari). Stack Overflow. Geraadpleegd op 7 april 2022, van https://stackoverflow.com/questions/4779963/how-can-i-access-my-localhost-from-my-android-device
+* HTTP Methods GET vs POST. (z.d.). What Is HTTP? Geraadpleegd op 7 april 2022, van https://www.w3schools.com/tags/ref_httpmethods.asp
+* GeeksforGeeks. (2021, 20 november). How to get Post Data in Node.js ? Geraadpleegd op 7 april 2022, van https://www.geeksforgeeks.org/how-to-get-post-data-in-node-js/
 
+## Opdrachten
 
 Link naar team opdracht https://timmit147.github.io/browser-technologies-2122/teamOpdracht/
 
