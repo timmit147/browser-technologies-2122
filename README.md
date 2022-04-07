@@ -101,16 +101,17 @@ Op mobiel heb ik gekeken of het toetsenbord niet over tekst heen gaat dat je nog
 
 ## Progressive Enhancement
 
-### Functional 
-De student kan de vraag bekijken.
-De leraar kan een vraag toevoegen.
-### Reliable
-De student .
-De leraar .
+### Functional/Reliable
+* De student kan de vraag altijd bekijken en beandwoorden ook zonder javascript en css.
+* De leraar kan een vraag toevoegen zonder javascript en css.
+* De website word gerendert op de server en is daarom niet afhankelijk van oude mobieltjes of slecht internet.
 ### Usable 
-De student ziet direct het recultaat.
-De leraar kan verschillenden vragen stellen.
+* De student ziet direct het recultaat en kan niet oneindig andwoord geven op een vraag.
+* De leraar kan verschillenden vragen live zetten voor de studenten.
 ### Pleasurable 
+* De website is fijn om naar te kijken door css.
+* De resultaten worden getoont als diagram inplaats van tekst.
+* Animaties zijn toegevoegt om de ervaring te verbeteren.
 
 
 ## Browsers Test
