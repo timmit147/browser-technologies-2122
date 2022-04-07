@@ -56,7 +56,7 @@ Ik heb gekeken of SVG op alle browsers gebruikt kan worden en dit is op een aant
 <img src="https://user-images.githubusercontent.com/29665951/161737535-a3ae73db-53fc-4c9b-8e95-bf1734c4c359.png"   width="1500px">
 
 ## Formaction supported 
-Ik gebruik formaction om verschillende buttons in mijn form verschillende acties te geven. Dit word niet ondersteund door oudere browsers uit 2010. De oplossing hier voor is om verschillende formulieren te maken. Bij elk formulier kan je een extra variable mee geven zodat de server kan onderscheiden welke knop gedrukt is op de pagina. Voorbeeld kan zijn verwijder:a of update:a.
+Ik gebruik formaction om verschillende buttons in mijn form verschillende acties te geven. Dit word niet ondersteund door oudere browsers uit 2010. De oplossing hier voor is om verschillende formulieren te maken. Bij elk formulier kan je een extra variable mee geven zodat de server kan onderscheiden welke knop gedrukt is op de pagina.
 
 ![image](https://user-images.githubusercontent.com/29665951/161739320-b1cfaaf5-580b-4255-8bf4-216f9eebe63d.png)
 
