@@ -72,9 +72,22 @@ De grafiek gebruikt kleuren en ik heb getest of deze kleuren werken voor kleuren
 ### Tritanopia
 <img src="https://user-images.githubusercontent.com/29665951/161242479-362d7cdc-16f7-47be-8c49-327864df0392.png"  width="250px">
 
-## Probleem 2(button)
+## Probleem 2 (button)
 
 Een probleem dat ik had was dat de gebruiker bij de poll oneindig kon stemmen en dat is is niet de bedoeling. De oplossing die ik heb gevonden is req.headers['user-agent'] te gebruiken op gebruikers te onderschijden met elkaar. Wanneer je nu vaker de tab opent weet de server dat dit de zelften persoon is die het zelften browser gebruikt.
+
+## Probleem 3 (Tab)
+Wanneer ik door de pagina ging taben werkten alles behalven het tabben door de knoppen die ik had gestyled. Ik heb daarom een focus state toegevoegd zodat je weet welke knop je hebt geselecteerd.
+
+![image](https://user-images.githubusercontent.com/29665951/162176233-9d55a6d0-ce71-47d6-9d23-48b320bab477.png)
+
+![image](https://user-images.githubusercontent.com/29665951/162177019-37799d26-ab87-4b99-afa2-48af444f53d3.png)
+
+## Testen toetsenboard mobiel
+
+Op mobiel heb ik gekeken of het toetsenbord niet over tekst heen gaat dat je nog moet lezen en op mijn website is dat niet het geval. 
+
+![thumbnail_Screenshot_20220407-121958](https://user-images.githubusercontent.com/29665951/162178393-ac53ab23-b41d-43e8-85fe-1c95ed6585de.png)
 
 
 ## Progressive Enhancement
@@ -94,11 +107,13 @@ De leraar kan verschillenden vragen stellen.
 ## Browsers Test
 ### Desktop
 Google Chrome: Versie 99.0.4844.84 (Officiële build) (64-bits)
+
 Firefox: Versie 98.0.2 (64-bits)
 
 ### Mobiel
-Android: Moto g(8) power (XT2041-3)
-Apple:
+Moto g(8) power (XT2041-3)
+
+Nokia Microsoft Lumia 620
 
 ## Eind recultaat
 
