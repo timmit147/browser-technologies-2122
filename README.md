@@ -130,6 +130,9 @@ Tijdens het testen op de nokia kreeg ik een probleem dat tekst over de svg heen 
 
 ![image](https://user-images.githubusercontent.com/29665951/162181900-d138922b-3c3e-497c-b851-7817b64c5376.png)
 
+![image](https://user-images.githubusercontent.com/29665951/162190963-259e928c-353e-4cd7-97c8-07047cf35579.png)
+
+
 
 ## Eind recultaat
 
