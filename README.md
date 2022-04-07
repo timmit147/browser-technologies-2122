@@ -25,9 +25,13 @@ Leraar: vraag toevoegen en verwijderen
 Student: vraag bekijken en beandwoorden
 
 ### Feature list
-* Css toegevoegen voor websites dat css gebruikt
+* Vraag verwijderen
 * Pagina automatich herladen toevoegen voor aparaten dat javascript ondersteunt.
-* Gegevens gebruiker (naam) dit is niet nodig om een werkende poll te hebben en is daarom een feature
+* Resultaat in diagram
+* Kleuren
+* Fonts
+
+Waar ik zelf over zat te twijfelen was het oneindig kunnen stemmen in de poll een feature was. Uiteindelijk wil de leraar niet dat de studenten oneindig kunnen stemmen en is het daarom niet een feature maar is het een vereisten.
 
 ## Probleem 1 (table)
 
@@ -114,6 +118,12 @@ Firefox: Versie 98.0.2 (64-bits)
 Moto g(8) power (XT2041-3)
 
 Nokia Microsoft Lumia 620
+
+## Probleem 4 (svg)
+Tijdens het testen op de nokia kreeg ik een probleem dat tekst over de svg heen ging. De oplossing die ik had gevonden was de rect in de svg even hoog maken als de svg.
+
+![image](https://user-images.githubusercontent.com/29665951/162181900-d138922b-3c3e-497c-b851-7817b64c5376.png)
+
 
 ## Eind recultaat
 
